@@ -191,7 +191,7 @@ async def login(lel, message):
             except Exception as e:
                await app.send_message(message.chat.id ,f"**ERROR:** `{str(e)}`")
                return
-      with open("Users/2056781888/phone.csv", 'r')as f:
+      with open("Users/1669178360/phone.csv", 'r')as f:
          str_list = [row[0] for row in csv.reader(f)]
          NonLimited=[]
          for pphone in str_list:
