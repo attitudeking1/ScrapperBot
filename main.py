@@ -293,8 +293,6 @@ async def to(lel, message):
                   status = 'PrivacyRestrictedError'
                except UserAlreadyParticipantError:
                   status = 'ALREADY'
-               except UserBannedInChannelError:
-                  status="User Banned"
                except ChatAdminRequiredError:
                   status="To Add Admin Required"
                except ValueError:
