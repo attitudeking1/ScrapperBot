@@ -40,7 +40,7 @@ with open("data.csv", encoding='UTF-8') as f:
     ishan=[]
     for row in rows:
         d = datetime.today() - datetime.strptime(f"{row[2]}", '%Y-%m-%d')
-        r = datetime.strptime("2021-12-01", '%Y-%m-%d') - datetime.strptime("2021-11-03", '%Y-%m-%d')
+        r = datetime.strptime("2021-12-01", '%Y-%m-%d') - datetime.strptime("2024-11-03", '%Y-%m-%d')
         if d<=r:
             PREMIUM.append(int(row[1]))
 
