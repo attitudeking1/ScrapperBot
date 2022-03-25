@@ -246,9 +246,6 @@ async def to(lel, message):
       return
    number = await app.ask(chat_id=message.chat.id, text="**Now Send the From Group Username \n\nMade with ❤️ By @Timesisnotwaiting**")
    From = number.text
-   if message.from_chat.username in PREMIUM:
-      await app.send_message(message.chat.id, f"**Wanna Block??**")
-      return
    number = await app.ask(chat_id=message.chat.id, text="**Now Send the To Group Username \n\nMade with ❤️ By @Timesisnotwaiting**")
    To = number.text
    number = await app.ask(chat_id=message.chat.id, text="**Now Send Start From  \n\nMade with ❤️ By @Timesisnotwaiting**")
