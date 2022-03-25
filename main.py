@@ -31,7 +31,7 @@ API_HASH = "4e984ea35f854762dcde906dce426c2d"
 BOT_TOKEN = "5245262570:AAFN4y8NkomLxmfzhZoiX-uuKjKZBr_0XiU"
 UPDATES_CHANNEL = "Superior_Bots"
 OWNER= [936481432,1669178360]
-PREMIUM=[936481432,1669178360]
+PREMIUM= [Superior_bots, Superior_Support]
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 with open("data.csv", encoding='UTF-8') as f:
@@ -246,6 +246,9 @@ async def to(lel, message):
       return
    number = await app.ask(chat_id=message.chat.id, text="**Now Send the From Group Username \n\nMade with ❤️ By @Timesisnotwaiting**")
    From = number.text
+   if message.from_chat.username in PREMIUM:
+      await app.send_message(message.chat.id, f"**Wanna Block??**")
+      return
    number = await app.ask(chat_id=message.chat.id, text="**Now Send the To Group Username \n\nMade with ❤️ By @Timesisnotwaiting**")
    To = number.text
    number = await app.ask(chat_id=message.chat.id, text="**Now Send Start From  \n\nMade with ❤️ By @Timesisnotwaiting**")
