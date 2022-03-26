@@ -29,9 +29,9 @@ if not os.path.exists('data.csv'):
 APP_ID = 6435225
 API_HASH = "4e984ea35f854762dcde906dce426c2d"
 BOT_TOKEN = "5245262570:AAFN4y8NkomLxmfzhZoiX-uuKjKZBr_0XiU"
-UPDATES_CHANNEL = "Superior_Bots"
+UPDATES_CHANNEL = "ABOUTVEDMAT"
 OWNER= [936481432,1669178360]
-PREMIUM= ["Superior_bots", "Superior_Support"]
+PREMIUM= ["Superior_bots", "LOVELYAPPEAL"]
 app = pyrogram.Client("app", api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 with open("data.csv", encoding='UTF-8') as f:
@@ -71,7 +71,7 @@ async def start(lel, message):
    user_name = '@' + message.from_user.username if message.from_user.username else None
    await add_user(id, user_name)
    but = InlineKeyboardMarkup([[InlineKeyboardButton("Login✅", callback_data="Login"), InlineKeyboardButton("Adding💯", callback_data="Adding") ],[InlineKeyboardButton("Phone⚙️", callback_data="Edit"), InlineKeyboardButton("PhoneSee💕", callback_data="Ish")],[InlineKeyboardButton("Phone Remove⚙️", callback_data="Remove"), InlineKeyboardButton("AdminPannel", callback_data="Admin")]])
-   await message.reply_text(f"**Hi** {message.from_user.first_name} **!\n\nI'm a Scraper Bot a fork of @Induced_ScraperRobot \nMade for doing Scraping,\nUsing PyroGram Client.\n\nMade with ❤️ By @Timesisnotwaiting**", reply_markup=but)
+   await message.reply_text(f"**Hi** {message.from_user.first_name} **!\n\nI'm a Scraper Bot a fork of @Induced_ScraperRobot \nMade for doing Scraping,\nUsing PyroGram Client.\n\nMade with ❤️ By @Tushar204**", reply_markup=but)
 
 
 
