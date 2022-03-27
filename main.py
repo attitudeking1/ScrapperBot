@@ -71,7 +71,7 @@ async def start(lel, message):
    user_name = '@' + message.from_user.username if message.from_user.username else None
    await add_user(id, user_name)
    but = InlineKeyboardMarkup([[InlineKeyboardButton("Login✅", callback_data="Login"), InlineKeyboardButton("Adding💯", callback_data="Adding") ],[InlineKeyboardButton("Phone⚙️", callback_data="Edit"), InlineKeyboardButton("PhoneSee💕", callback_data="Ish")],[InlineKeyboardButton("Phone Remove⚙️", callback_data="Remove"), InlineKeyboardButton("AdminPannel", callback_data="Admin")]])
-   await message.reply_text(f"**Hi** {message.from_user.first_name} **!\n\nI'm a Scraper Bot a fork of @Induced_ScraperRobot \nMade for doing Scraping,\nUsing PyroGram Client.\n\nMade with ❤️ By @Tushar204**", reply_markup=but)
+   await message.reply_text(f"**Hi** {message.from_user.first_name} **!\n\nI'm a Scraper Bot a assistant of @LOVELYR_OBOT \nMade for doing Scraping,\nUsing PyroGram Client.\n\nMade with ❤️ By @Tushar204**", reply_markup=but)
 
 
 
@@ -498,5 +498,5 @@ This Bot Maintained By
 @Tushar204
 """
 print(text)
-print("Induced Adding Started Sucessfully........")
+print("Harshu Adding Started Sucessfully........")
 app.run()
