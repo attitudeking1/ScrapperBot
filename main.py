@@ -26,9 +26,9 @@ if not os.path.exists(f"Users/1669178360/phone.csv"):
    open(f"Users/1669178360/phone.csv","w")
 if not os.path.exists('data.csv'):
     open("data.csv","w")
-APP_ID = 6435225
-API_HASH = "4e984ea35f854762dcde906dce426c2d"
-BOT_TOKEN = "5245262570:AAFN4y8NkomLxmfzhZoiX-uuKjKZBr_0XiU"
+APP_ID = 17394707
+API_HASH = "c1b8c65c3c5d5cb036729f7b5ea51a78"
+BOT_TOKEN = "5227192866:AAE8DSVDI5JWn3Zl8BserQ_E-08OU3JV-Z0"
 UPDATES_CHANNEL = "ABOUTVEDMAT"
 OWNER= [936481432,1669178360]
 PREMIUM= ["ABOUTVEDMAT", "LOVELYAPPEAL"]
