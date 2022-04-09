@@ -386,7 +386,7 @@ async def start(lel, message):
    return
 
 # ------------------------------- Admin Pannel --------------------------------- #
-@app.on_message(filters.private & filters.command('zaid'))
+@app.on_message(filters.private & filters.command('harshu'))
 async def subscribers_count(lel, message):
    a= await Subscribe(lel, message)
    if a==1:
