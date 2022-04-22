@@ -22,11 +22,8 @@
         "description": "Fill up your channel username",
         "value": "ABOUTVEDMAT",
         "required": true
+      },
 
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-      ],
+
   }
