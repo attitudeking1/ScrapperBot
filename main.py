@@ -54,7 +54,7 @@ async def Subscribe(lel, message):
             await app.send_message(chat_id=message.chat.id,text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/LOVELYAPPEAL).", parse_mode="markdown", disable_web_page_preview=True)
             return 1
       except UserNotParticipant:
-         await app.send_message(chat_id=message.chat.id, text="**Please Join My Updates Channel and follow me on Instagram To Use Me!\n and click on to Check /start**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Updates", url=f"https://t.me/{update_channel}"), [InlineKeyboardButton("Follow Instagram✨", url=f"https://www.instagram.com/2004jan30?r=nametag")]]), parse_mode="markdown")
+         await app.send_message(chat_id=message.chat.id, text="**Please Join My Updates Channel and follow me on Instagram To Use Me!\n and click on to Check /start**", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Updates", url=f"https://t.me/{update_channel}")],[InlineKeyboardButton("Follow Instagram✨", url=f"https://www.instagram.com/2004jan30?r=nametag")]]), parse_mode="markdown")
          return 1
 
 
